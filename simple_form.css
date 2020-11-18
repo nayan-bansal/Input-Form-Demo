@@ -49,9 +49,6 @@ error-output {
     font-style: italic;
     color: orangered;
 }
-<<<<<<< HEAD
-
-=======
 @media only screen and (max-width: 360px){
 
     h1{
@@ -63,4 +60,3 @@ error-output {
         font-size: 14px;
     }
 }
->>>>>>> UC_6_Media_Query
