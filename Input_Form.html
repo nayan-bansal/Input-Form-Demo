@@ -93,7 +93,11 @@
         const password = document.querySelector('#pwd');
         const passError = document.querySelector(".password-error");
         password.addEventListener('input', function () {
+<<<<<<< HEAD
             let passRegex = RegExp("^([a-zA-Z]){8,}$");
+=======
+            let passRegex = RegExp("^(?=.*\\d)(?=.*[A-Z])(?=.*\\W)(?!.*\\W\\w*\\W)(?!.*\\s).{8,}$");
+>>>>>>> UC_5_Complete_Password
             if (passRegex.test(password.value))
                 passError.textContent = "";
             else
